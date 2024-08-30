@@ -1,4 +1,5 @@
-import 'package:courses/View/favourite/view.dart';
+
+import 'package:courses/View/nav-bar/view.dart';
 import 'package:flutter/material.dart';
 import 'Core/utils/colors.dart';
 
@@ -9,7 +10,7 @@ class MyApp extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        home:FavouriteView(),
+        home:NavBarView(),
 
         theme: ThemeData(
           fontFamily: 'Poppins',
